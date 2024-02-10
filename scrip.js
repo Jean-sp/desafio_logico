@@ -1,12 +1,9 @@
-
+// Declaração das Variaveis
 let nomeHeroi = "Dok"
-let expHeroi = 10001
+let expHeroi = 1000
 let nivel = ""
 
-function texto(nivel){
-    console.log("O heroi "+ nomeHeroi +" esta no nivel "+ nivel)
-}
-
+//IF para descubri qual o nivel do heroi
 if (expHeroi <= 1000){
     nivel = "Ferro"
 }else if (expHeroi <= 2000){
@@ -25,4 +22,5 @@ if (expHeroi <= 1000){
     nivel = "Radiante"
 }
 
-texto(nivel)
+//Texto final
+console.log("O heroi "+ nomeHeroi +" esta no nivel "+ nivel)
